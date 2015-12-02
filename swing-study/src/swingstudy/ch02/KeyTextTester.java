@@ -8,6 +8,11 @@ import java.awt.event.ActionListener;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
+/**
+ * @author Ã÷
+ * Test code for both {@code keyTextComponent} and {@code keyTextComponent2} class.
+ * You may change code to test another class
+ */
 public class KeyTextTester {
 
 	public static void main(String[] args) {
@@ -17,8 +22,9 @@ public class KeyTextTester {
 				JFrame frame = new JFrame("Key Text Sample");
 				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-				KeyTextComponent keyTextComponent = new KeyTextComponent();
-//				KeyTextComponent2 keyTextComponent = new KeyTextComponent2();
+				// Change code to test a different class.
+//				KeyTextComponent keyTextComponent = new KeyTextComponent();
+				KeyTextComponent2 keyTextComponent = new KeyTextComponent2();
 				final JTextField textField = new JTextField();
 
 				ActionListener actionListener = new ActionListener() {
