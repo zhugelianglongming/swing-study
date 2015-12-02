@@ -1,6 +1,3 @@
-/**
- * 
- */
 package swingstudy.ch02;
 
 import java.awt.BorderLayout;
@@ -16,17 +13,9 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
-/**
- * @author lenovo
- *
- */
 public class ButtonSample2 {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Runnable runner = new Runnable() {
 			public void run() {
