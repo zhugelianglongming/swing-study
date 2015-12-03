@@ -6,6 +6,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JRootPane;
@@ -34,17 +36,23 @@ public class ActionButtonSample {
 				button1.addActionListener(actionListener);
 				frame.add(button1);
 
-				JButton button2 = new JButton("WarnIcon");
+				Icon warnIcon = new ImageIcon("image/warn.png");
+				JButton button2 = new JButton(warnIcon);
 				button2.setActionCommand("Second");
 				button2.addActionListener(actionListener);
 				frame.add(button2);
 
-				JButton button3 = new JButton("Warn");
+				JButton button3 = new JButton("Warning", warnIcon);
 				button3.setActionCommand("Third");
 				button3.addActionListener(actionListener);
 				frame.add(button3);
 
-				String htmlButton = "HTMLButton" + "Multi-line";
+				String htmlButton = "<html>" +
+						"<sup>HTML</sup>" +
+						"<sub><em>Button</em></sub>" +
+						"<br>" + 
+						"<span style=\"text-decoration: underline;\">Multi-line</span>" +
+				"</html>";				
 				JButton button4 = new JButton(htmlButton);
 				button4.setActionCommand("Fourth");
 				button4.addActionListener(actionListener);
