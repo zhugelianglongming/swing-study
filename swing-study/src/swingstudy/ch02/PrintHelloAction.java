@@ -5,7 +5,7 @@ import javax.swing.*;
 
 @SuppressWarnings("serial")
 public class PrintHelloAction extends AbstractAction {
-	private static final Icon printIcon = new ImageIcon("Print.gif");
+	private static final Icon printIcon = new ImageIcon("image/print.png");
 
 	PrintHelloAction() {
 		super("Print", printIcon);
