@@ -94,7 +94,7 @@ public class MenuSample {
 				
 				// Create find option sub menu.
 				JMenu findOptionsMenu = new JMenu("Options");
-				Icon atIcon = new ImageIcon("at.gif");
+				Icon atIcon = new ImageIcon("image/at.jpg");
 				findOptionsMenu.setIcon(atIcon);
 				findOptionsMenu.setMnemonic(KeyEvent.VK_O);
 				
