@@ -23,7 +23,7 @@ public class ToggleSample {
 		JMenuBar bar = new JMenuBar();
 		
 		JMenu file = new JMenu("File");
-		file.setMnemonic('f');
+		file.setMnemonic('F');
 		JMenuItem newItem = new JMenuItem("New", 'N');
 		file.add(newItem);
 		JMenuItem openItem = new JMenuItem("Open", 'O');
@@ -53,7 +53,7 @@ public class ToggleSample {
 		JMenuItem findItem = new JMenuItem("Find", 'F');
 		findItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F3, 0));
 		edit.add(findItem);
-		edit.setMnemonic('e');
+		edit.setMnemonic('E');
 		
 		Icon atIcon = new ImageIcon("image/at.jpg");
 		JMenu findOptions = new JMenu("Options");
