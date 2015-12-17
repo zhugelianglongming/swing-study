@@ -16,10 +16,10 @@ import javax.swing.JMenuBar;
 import javax.swing.JRadioButtonMenuItem;
 
 public class RadioButtonSample {
-	static Icon threeIcon = new ImageIcon("3.gif");
-	static Icon fourIcon = new ImageIcon("4.gif");
-	static Icon fiveIcon = new ImageIcon("5.gif");
-	static Icon sixIcon = new ImageIcon("6.gif");
+	static Icon threeIcon = new ImageIcon("image/3.png");
+	static Icon fourIcon = new ImageIcon("image/4.png");
+	static Icon fiveIcon = new ImageIcon("image/5.png");
+	static Icon sixIcon = new ImageIcon("image/6.png");
 
 	public static class ButtonActionListener implements ActionListener {
 		public void actionPerformed(ActionEvent event) {
