@@ -23,7 +23,7 @@ public class ButtonPopupSample {
 		}
 	};
 
-	// define show popu ActionListener
+	// define show PopUp ActionListener
 	static class ShowPopupActionListener implements ActionListener {
 		private Component component;
 
@@ -45,7 +45,7 @@ public class ButtonPopupSample {
 					popup.hide();
 				}
 			};
-			// hide popup in 3 seconds
+			// hide PopUp in 3 seconds
 			Timer timer = new Timer(3000, hider);
 			timer.start();
 		}
